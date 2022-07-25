@@ -6,6 +6,7 @@ body{
     background: url(https://i.pinimg.com/originals/66/a7/95/66a795cd9b15e60f4396b540e4b430a9.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
    }
 img{
     width: 70px;
@@ -13,11 +14,12 @@ img{
     border-radius: 100%;
     margin: 1px;
 }
+    
 header{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    background-color: rgb(0, 0, 0);
+    justify-content: center;   
+     background-color: rgb(0, 0, 0);
     }
     
     
@@ -38,6 +40,8 @@ header{
         margin: 0 30px;
         
     }
+    
+    
     a{
         text-decoration: none;
         color: white;
@@ -58,26 +62,30 @@ header{
     li:hover{
         background-color: rgb(97, 97, 97);
     }
-     
-    div.galeria{
-        margin: 10px 20px;
-        box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgba(0,0,0,0.19);
-        width: 415px;
-
-    }
-    
-    div.galeria img{
-        width: 100%;
-        height: auto;
-       
-    }
     div.pie {
         text-align: center;
         text-shadow: 2px 2px 5px rgb(167, 0, 0);
         padding: 10px;
         background-color: blanchedalmond;}
-    h2{
-  
-       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-       font-size: 30px;
-        }
+    
+
+        .seccion{
+            width: 100%;
+            height: 100vh;
+            }
+    
+h1{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 10% 0 0 0;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    background-color: rgb(65, 0, 0);
+    opacity: 0.6;
+
+}
+h2{
+    background-color: gray;
+    opacity: 0.9;
+}
